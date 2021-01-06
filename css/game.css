@@ -1,0 +1,54 @@
+body {
+  background: lightblue;
+}
+#score {
+ text-align: center;
+ padding: 2.5%;
+ font-size: 2.5vmax;
+}
+
+#grid {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+}
+
+#container {
+  text-align: center;
+}
+
+#grid-container {
+  margin-top: 2.5%;
+}
+
+.square {
+  width: 48px;
+  height: 48px;
+  background: grey;
+  border: 0.5px solid black;
+}
+
+#attempt-counter {
+  padding-top: 2.5%;
+}
+
+#terminate-button-container {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.5vmax;
+  padding: 0.5%;
+}
+
+#terminate-button {
+  padding: 12.5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #grid-container {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+}

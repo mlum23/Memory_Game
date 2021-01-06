@@ -1,0 +1,45 @@
+body {
+    background: lightblue;
+}
+
+#leader-board, #loading, #row-rank {
+    text-align: center;
+    align-items: center;
+}
+
+#title {
+    padding: 10px;
+    font-size: 3vmax;
+}
+
+#restart-button, #loading {
+    font-size: 2.5vmax;
+}
+
+table, th, td {
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2vmax;
+}
+
+th {
+    background-color: lightcyan;
+}
+
+td {
+    background-color: lightsteelblue;
+}
+
+th, td {
+    padding: 25px;
+}
+
+#row-name {
+    width: 50vmax;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 2.5%;
+}
+

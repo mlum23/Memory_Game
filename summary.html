@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <link rel="stylesheet" href="./css/summary.css">
+</head>
+<body>
+    
+    <div id="summary">
+        <div id="final-score"></div>
+        <h1>Enter your name: </h1>
+
+        <input type="text" id="name" name="name"><br/>
+        <input style="display:none;" id="score" name="score"> 
+        <button id="submit-button" onclick="submitName()" >Submit Name</button>
+        
+        <p id="warning"></p>
+
+
+        <a href="index.html"><button id="restart-button">RESTART</button></a>
+        
+
+        <script src="./js/summary.js"></script>
+    </div>
+</body>
+</html>
