@@ -1,8 +1,9 @@
 # Memory Game
-A web-based game that helps train your memory.
+A web-based game that helps train your memory.  
+You can try it here: https://peaceful-dubinsky-c293e6.netlify.app/comp4537/memorygame/
  
-  ## Preview
-   [![Demo of App](sample.png)](https://www.youtube.com/watch?v=06AuU30kRA4)
+  ## Demo
+   [![Demo of App](video.png)](https://www.youtube.com/watch?v=06AuU30kRA4)
   
   ## Technologies
 * HTML
